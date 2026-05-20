@@ -6,7 +6,8 @@
     <title>Meu site</title>
   </head>
   <body>
-
+<!-- Header: define o cabeçalho. Exibe logo, título, nav... -->
+  <header>
      <h1>Eu amo Autoria Web!</h1>
     <!-- <h2>Eu amo Autoria Web!</h2> -->
     <!-- <h3>Eu amo Autoria Web!</h3> -->
@@ -25,39 +26,73 @@
         <li>
           <a href="https://github.com/salsneto/autoriaweb2026" target="_blank">Github</a>
           <li>
-            <a href="https://www.todamateria.com.br/" target="_blank">Toda Matéria ENEM 2026</a>
+            <a href="https://www.todamateria.com.br/">Toda Matéria ENEM 2026</a>
           </li>
         </li>
       </ul>
     </nav>
+      </header>
+    <br />
+    <!--Main: delimita o conteúdo principal da página, único por documento, facilitando a navegação por leitores de tela -->
+    <main>
+      <!-- Seção temática com um título e assunto únicos -->
+      <section>
+       <h2>Seção 1</h2>
 
-   
-    <p>
+       <div>
+        <img src="assets/imgs/foto.jpeg" alt="Paisagem do anoitecer no final de ano com clima de natal em um condominio que há uma piscina">
+        <!-- div: contêiner genérico em bloco, sem significado semântico próprio, útil para agrupamento quando nenhum dos elementos semânticos se aplica -->
+       </div>
+     
+       <!-- article: bloco de conteúdo independente e reutilizável (post de blog, notícis, card de produto, comentário), que faz sentido fora do contexto imediato -->
+    <article>
+       <p>
       Lorem ipsum <strong>dolor</strong>, sit amet consectetur adipisicing elit. Facere est
       similique fuga culpa animi expedita neque, quia in, nam mollitia vel
       veritatis odio vitae magni, numquam aspernatur sequi quibusdam saepe.
     </p>
+    </article>
+
+
+    </section>
+  
     <br />
+    <section>
+      <h2>Seção 2</h2>
+    <img src="https://github.com/salsneto.png" alt="Avatar do Github">
     <p>
       Lorem ipsum <em>dolor</em>, sit amet consectetur adipisicing elit. Id, a iste 
       consequatur obcaecati cum labore eius nam. Eum, deleniti quas fuga ut quae
       vel deserunt sequi enim, nam repellat iusto.
     </p>
+    </section>
     <br />
+    <section>
+      <h2>Seção 3</h2>
     <ul>
     <p><em>Sempre Ter</em></p>
       <li>Foco</li>
       <li>Força</li>
       <li>Fé</li>
     </ul>
+    </section>
+
+    <section>
+      <h2>Seção 4</h2>
     <p>O que fazer quando chegar no laboratório?</p>
     <ol>
       <li>Ligar o pc</li>
       <li>Iniciar a VM no Github Codespaces</li>
       <li>Prestar atenção no professor</li>
     </ol>
+    </section>
 
-    
-    
+    </main>
+    <!-- footer: rodapé da página ou de uma seção, com informações de autoria, direitos, links secundários, contatos, etc -->
+    <footer>
+    <h3>IFRN Campus Macau
+      <p>Desenvolvido por Sales Neto</p>
+    </h3>
+    </footer>
   </body>
 </html>
