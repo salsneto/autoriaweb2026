@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Meu site</title>
   </head>
   <body>
@@ -15,7 +16,7 @@
     <!-- <h5>Eu amo Autoria Web!</h5> -->
     <!-- <h6>Eu amo Autoria Web!</h6> -->
 
-    <nav>
+    <nav id="nav-links">
       <ul>
         <li>
           <a href="#">Início</a>
@@ -31,12 +32,29 @@
         </li>
       </ul>
     </nav>
+    <p>Seções<p />
+    <nav id="nav-sections">
+      <ul>
+        <li>
+          <a href="#section1">Seção 1</a>
+        </li>
+        <li>
+          <a href="#section2">Seção 2</a>
+        </li>
+        <li>
+          <a href="#section3">Seção 3</a>
+        </li>
+        <li>
+          <a href="#section4">Seção 4</a>
+        </li>
+      </ul>
+    </nav>
       </header>
     <br />
     <!--Main: delimita o conteúdo principal da página, único por documento, facilitando a navegação por leitores de tela -->
     <main>
       <!-- Seção temática com um título e assunto únicos -->
-      <section>
+      <section id="section1">
        <h2>Seção 1</h2>
 
        <div>
@@ -54,12 +72,12 @@
     </article>
 
 
-    </section>
+    </section id="section2">
   
     <br />
     <section>
       <h2>Seção 2</h2>
-    <img src="https://github.com/salsneto.png" alt="Avatar do Github">
+    <img src="https://github.com/salsneto.png" alt="Avatar do Github" class="avatar">
     <p>
       Lorem ipsum <em>dolor</em>, sit amet consectetur adipisicing elit. Id, a iste 
       consequatur obcaecati cum labore eius nam. Eum, deleniti quas fuga ut quae
@@ -67,7 +85,7 @@
     </p>
     </section>
     <br />
-    <section>
+    <section id="section3">
       <h2>Seção 3</h2>
     <ul>
     <p><em>Sempre Ter</em></p>
@@ -77,7 +95,7 @@
     </ul>
     </section>
 
-    <section>
+    <section id="section4">
       <h2>Seção 4</h2>
     <p>O que fazer quando chegar no laboratório?</p>
     <ol>
