@@ -67,8 +67,9 @@ img {
 }
 
 .avatar {
-    border-radius: 
-    width: 
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
 
 #nav-sections ul {
@@ -108,17 +109,29 @@ a:hover {
     color: var(--sky);
     background-color: var(--glaucous);
     border-radius: 5px;
+    }
 }
 
 a:hover {
     color: var(--white);
     box-shadow: 0 0 10px var(--sky);
 
+}
 
+.fonte-maior {
+    background-color: var(--glaucous); 
+    font-size: 48px;
+    padding-left: 20px;
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: var(--sky); */
+    border: 10px dotted var(--sky);
+    text-align: center;
+}
 
-
-
-
-
-
+.teste-espacamento {
+    background-color: var(--coral);
+    padding: 20px 40px;
+    margin-top: 100px;
+    border-bottom: 10px solid black;
 }
